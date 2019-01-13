@@ -3,6 +3,7 @@ package org.fasttrackit;
 public class Formula {
     double sum;
 
+    
 
     public double firstCalc(double x, double y) {
 
@@ -10,5 +11,6 @@ public class Formula {
 
         double calc1 = x + y;
         return calc1;
+
     }
 }
