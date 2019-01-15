@@ -34,6 +34,7 @@ public class Formula {
         System.out.println("Vom calcula o inmultire intre cele 4 numere " + a + " * " + b + " * " + c + " * "+ d);
 
         double calc2 = a * b * c * d;
+        System.out.println(" The result will be " + calc2);
         return calc2;
     }
 
@@ -41,6 +42,7 @@ public class Formula {
             System.out.println("Vom calcula o inmultire intre cele 4 numere " + x + " * " + y +  " * " + z + " * "+ k);
 
             int calc2 = x*y*z*k;
+            System.out.println(" The result will be " + calc2);
             return calc2;
         }
     }
