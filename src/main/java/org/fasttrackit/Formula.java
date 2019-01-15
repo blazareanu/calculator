@@ -1,16 +1,31 @@
 package org.fasttrackit;
 
 public class Formula {
-    double sum;
 
+
+    // First calculation
+
+    private int sum ;
+
+
+    public int firstCalc1(int y, int x) {
+        this.sum = sum;
+        return sum;
+    }
 
 
     public double firstCalc(double x, double y) {
 
-        double calc1 = x + y;
-        return calc1;
+        double sum = x + y;
+        return sum;
+
 
     }
+
+
+
+
+//Second calculation
 
     public double secondCalc (double a, double b, double c, double d){
 
