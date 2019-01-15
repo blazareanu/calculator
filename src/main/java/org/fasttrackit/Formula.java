@@ -8,13 +8,8 @@ public class Formula {
     private int sum ;
 
 
-    public int firstCalc1(int y, int x) {
-        this.sum = sum;
-        return sum;
-    }
-
-
     public double firstCalc(double x, double y) {
+        System.out.println(" Apelam " +  x + " + " +  y );
 
         double sum = x + y;
         return sum;
@@ -23,6 +18,11 @@ public class Formula {
     }
 
 
+    public int firstCalc(int y, int x) {
+        System.out.println(" Apelam " + y + " + " + x );
+        int sum = y + x;
+        return sum;
+    }
 
 
 //Second calculation
